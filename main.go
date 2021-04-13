@@ -3,6 +3,9 @@ package main
 import "fmt"
 
 func main() {
-	firstName, lastName := "Sebastian", "Rodriguez"
-	fmt.Printf("Hello, %s %s!", firstName, lastName)
+	firstName := "Sebastian"
+	fmt.Println(firstName)
+
+	ptr := &firstName
+	fmt.Println(ptr, *ptr)
 }
