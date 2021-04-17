@@ -3,12 +3,10 @@ package main
 import "fmt"
 
 func main() {
-	firstName := "Sebastian"
-	fmt.Println(firstName)
+	const c int = 3
+	fmt.Println(c + 4)
 
-	ptr := &firstName
-	fmt.Println(ptr, *ptr)
+	// a bunch of code
 
-	firstName = "Arthur"
-	fmt.Println(ptr, *ptr)
+	fmt.Println(float32(c) + 1.2)
 }
