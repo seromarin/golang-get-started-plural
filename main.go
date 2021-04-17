@@ -3,10 +3,10 @@ package main
 import "fmt"
 
 func main() {
-	const c int = 3
+	const c = 3
 	fmt.Println(c + 4)
 
 	// a bunch of code
 
-	fmt.Println(float32(c) + 1.2)
+	fmt.Println(c + 1.2)
 }
