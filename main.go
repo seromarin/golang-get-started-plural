@@ -8,4 +8,7 @@ func main() {
 
 	ptr := &firstName
 	fmt.Println(ptr, *ptr)
+
+	firstName = "Arthur"
+	fmt.Println(ptr, *ptr)
 }
