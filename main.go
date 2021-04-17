@@ -1,12 +1,14 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+)
+
+const (
+	first  = iota + 6
+	second = 2 << iota
+)
 
 func main() {
-	const c = 3
-	fmt.Println(c + 4)
-
-	// a bunch of code
-
-	fmt.Println(c + 1.2)
+	fmt.Println(first, second)
 }
