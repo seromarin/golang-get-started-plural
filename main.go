@@ -10,5 +10,6 @@ const (
 )
 
 func main() {
+	fmt.Println("Hello, my dear friend")
 	fmt.Println(first, second)
 }
